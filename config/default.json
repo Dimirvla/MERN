@@ -1,3 +1,6 @@
 {
-	"mongoURI": "mongodb+srv://Vladimir123:vladimir@mernproject-lb6ml.mongodb.net/test?retryWrites=true&w=majority"
+	"mongoURI": "mongodb+srv://Vladimir123:vladimir@mernproject-lb6ml.mongodb.net/test?retryWrites=true&w=majority",
+	"jwtSecret": "ovojesikret",
+	"githubClientId": "1d14e5448e6881d246bf",
+	"githubSecret": "08f82aacd4952970556f520a597671dce5e6096c"
 }
