@@ -10,6 +10,7 @@ configure({ adapter: new Adapter() });
 describe('<Spinner />', () => {
 	it('should render spinner gif', () => {
 		const wrapper = shallow(<Spinner />);
-		expect(wrapper.find('img'));
+
+		expect(wrapper.find('img')).toHaveLength(1);
 	});
 });

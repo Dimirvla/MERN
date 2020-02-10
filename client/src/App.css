@@ -160,6 +160,7 @@ img {
 	opacity: 0.9;
 	background: var(--light-color);
 	color: #333;
+	min-width: 400px;
 }
 
 .btn-primary,
