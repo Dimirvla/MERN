@@ -53,6 +53,7 @@ const EditProfile = ({ profile: { profile, loading }, createProfile, history, ge
 			youtube: loading || !profile.social ? '' : profile.social.youtube,
 			instagram: loading || !profile.social ? '' : profile.social.instagram
 		});
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [getCurrentProfile, loading]);
 
 	const onChange = e => setFormData({ ...formData, [e.target.name]: e.target.value });
